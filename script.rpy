@@ -61,7 +61,6 @@ default persistent.achieved_endings = []
 
 # Glitch code by Gouvernathor: https://github.com/Gouvernathor/renpy-ChromaGlitch
 
-# The game starts here.
 label start:
     show bg classroom with fade
     play music "modern chillout.mp3"
@@ -118,9 +117,9 @@ label stretch:
     show simon game with moveinleft:
         xalign 0.5
         yalign 0.5
-    "???" "Hey! You can't use {i}that{/i} word here!"
+    "{color=#a6e6ff}???" "{color=#a6e6ff}Hey! You can't use {i}that{/i} word here!"
 
-    "That message had come from Simon, a bot programmed to be the entire club's mascot."
+    "That message had come from Simon, a bot programmed to be the club's mascot."
 
     "For some reason, perhaps related to the club's history, he has a distaste for gaming. That's why every time anyone mentions the word \"game\", he pops up with an automated response."
 
